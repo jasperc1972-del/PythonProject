@@ -43,16 +43,17 @@ print(name_lower)
 # 如果都符合的話,歡迎顯示+使用者名稱
 
 usename=input("請輸入使用者名稱:")
-if usename.isalpha():
-    print("全部是英文")
-else:
-    print("包含其他字元")
-# if len(usename)>12:
-#     print("你的使用者名稱不能超過12個字元")
-# elif " " in usename:
-#     print("你的使用名稱不可以包含空格")
-#
+# if usename.isalpha():
+#     print("全部是英文")
 # else:
-#     print("歡迎 "+usename)
+#     print("包含其他字元")
+if len(usename)>12:
+    print("你的使用者名稱不能超過12個字元")
+elif " " in usename:
+    print("你的使用名稱不可以包含空格")
+elif not usename.isalpha():
+    print("你的使用名稱不能包含數字")
+else:
+    print("歡迎 "+usename)
 
 
