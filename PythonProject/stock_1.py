@@ -11,7 +11,7 @@ plt.rcParams['font.family'] = 'Microsoft JhengHei'  # 微軟正黑體
 plt.rcParams['axes.unicode_minus'] = False
 
 # 股票清單（可自行新增）
-stocks = ["2330.TW", "2317.TW", "2454.TW"]  # 台積電、鴻海、聯發科
+stocks = ["3013.TW", "2317.TW", "2454.TW"]  # 台積電、鴻海、聯發科
 
 # 均線參數
 short_window = 5
