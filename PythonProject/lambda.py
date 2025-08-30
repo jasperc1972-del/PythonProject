@@ -22,7 +22,7 @@
 result=lambda x:f"{x}是偶數" if x%2==0 else f"{x}是奇數"
 print(result(0))
 
-#ex4  處裡字串
+#ex4  處理字串
 full_name=lambda first_name,last_name:f"{first_name} {last_name}"
 print(full_name("lamis","chou"))
 
